@@ -1,0 +1,1001 @@
+CustomerID,Name,Age,Gender,City,AnnualIncome,PurchaseFrequency,TotalSpend,LastPurchaseDate,ChurnStatus
+1,Customer_1,54,Male,Chicago,37115,18,1898.9,2023-01-01,Churned
+2,Customer_2,33,Female,Phoenix,98341,20,3873.01,2023-01-02,Churned
+3,Customer_3,67,Female,Phoenix,81555,4,1445.54,2023-01-03,Churned
+4,Customer_4,43,Female,New York,38636,6,800.03,2023-01-04,Churned
+5,Customer_5,67,Male,Phoenix,81069,13,3867.44,2023-01-05,Churned
+6,Customer_6,54,Male,New York,112066,12,3483.78,2023-01-06,Active
+7,Customer_7,67,Female,Houston,38174,8,2920.67,2023-01-07,Active
+8,Customer_8,37,Female,New York,69879,3,3426.47,2023-01-08,Churned
+9,Customer_9,65,Female,Phoenix,119134,16,5591.61,2023-01-09,Active
+10,Customer_10,52,Female,Los Angeles,109058,5,8504.71,2023-01-10,Churned
+11,Customer_11,36,Male,New York,101139,20,2075.14,2023-01-11,Active
+12,Customer_12,46,Female,Los Angeles,105042,9,1288.72,2023-01-12,Active
+13,Customer_13,55,Male,Houston,51412,17,6762.53,2023-01-13,Churned
+14,Customer_14,61,Male,Los Angeles,105106,17,718.59,2023-01-14,Active
+15,Customer_15,41,Male,Houston,31635,3,4748.42,2023-01-15,Active
+16,Customer_16,47,Female,Houston,111120,7,655.28,2023-01-16,Churned
+17,Customer_17,45,Female,Chicago,51889,17,2749.43,2023-01-17,Churned
+18,Customer_18,45,Female,New York,94159,10,6107.65,2023-01-18,Churned
+19,Customer_19,20,Male,Los Angeles,52735,8,2034.95,2023-01-19,Churned
+20,Customer_20,48,Male,New York,76229,14,1013.13,2023-01-20,Churned
+21,Customer_21,39,Female,Houston,112407,4,2467.07,2023-01-21,Churned
+22,Customer_22,62,Male,Chicago,39314,14,1845.45,2023-01-22,Active
+23,Customer_23,34,Female,Houston,64353,13,1630.81,2023-01-23,Active
+24,Customer_24,22,Female,Los Angeles,78464,10,3647.25,2023-01-24,Active
+25,Customer_25,59,Female,Phoenix,62167,8,1931.75,2023-01-25,Churned
+26,Customer_26,55,Female,Phoenix,71977,10,8629.14,2023-01-26,Active
+27,Customer_27,55,Female,Chicago,55735,5,1783.09,2023-01-27,Active
+28,Customer_28,52,Male,Phoenix,106948,13,9734.0,2023-01-28,Churned
+29,Customer_29,18,Male,New York,92472,6,3574.54,2023-01-29,Active
+30,Customer_30,50,Female,Los Angeles,114663,14,2025.74,2023-01-30,Active
+31,Customer_31,34,Female,Los Angeles,44172,9,4536.58,2023-01-31,Churned
+32,Customer_32,59,Female,Chicago,83430,14,3060.75,2023-02-01,Active
+33,Customer_33,30,Male,Chicago,64821,15,6117.2,2023-02-02,Churned
+34,Customer_34,46,Male,Houston,105379,4,2936.21,2023-02-03,Churned
+35,Customer_35,67,Female,New York,43238,12,9248.57,2023-02-04,Active
+36,Customer_36,21,Female,Phoenix,88151,18,563.31,2023-02-05,Churned
+37,Customer_37,60,Female,Los Angeles,114117,7,1304.44,2023-02-06,Active
+38,Customer_38,36,Male,Los Angeles,99060,16,6307.65,2023-02-07,Churned
+39,Customer_39,42,Male,Houston,110449,16,8641.92,2023-02-08,Active
+40,Customer_40,43,Female,Houston,51856,18,9276.17,2023-02-09,Churned
+41,Customer_41,25,Female,Houston,67565,9,1932.77,2023-02-10,Churned
+42,Customer_42,22,Female,New York,113441,1,8650.19,2023-02-11,Active
+43,Customer_43,28,Male,Houston,67060,19,2195.9,2023-02-12,Churned
+44,Customer_44,51,Male,Phoenix,38508,2,7562.64,2023-02-13,Churned
+45,Customer_45,54,Male,New York,45467,15,6893.0,2023-02-14,Active
+46,Customer_46,35,Male,New York,32418,19,7131.84,2023-02-15,Churned
+47,Customer_47,65,Male,Chicago,88866,2,5584.26,2023-02-16,Churned
+48,Customer_48,51,Male,Houston,82462,11,4411.11,2023-02-17,Active
+49,Customer_49,23,Female,New York,114578,16,1570.05,2023-02-18,Churned
+50,Customer_50,47,Female,New York,61463,7,3827.42,2023-02-19,Churned
+51,Customer_51,27,Male,Phoenix,90001,6,8964.48,2023-02-20,Active
+52,Customer_52,19,Male,Los Angeles,55532,5,8191.43,2023-02-21,Active
+53,Customer_53,20,Male,New York,115003,4,8614.58,2023-02-22,Churned
+54,Customer_54,23,Female,New York,56823,4,8493.28,2023-02-23,Active
+55,Customer_55,60,Male,New York,108375,6,5839.65,2023-02-24,Active
+56,Customer_56,53,Female,Chicago,50739,12,857.43,2023-02-25,Churned
+57,Customer_57,23,Male,Chicago,113206,2,5789.33,2023-02-26,Active
+58,Customer_58,51,Female,Phoenix,81429,3,6926.86,2023-02-27,Active
+59,Customer_59,31,Male,New York,116381,7,1294.29,2023-02-28,Active
+60,Customer_60,22,Female,Los Angeles,52501,6,4450.79,2023-03-01,Churned
+61,Customer_61,33,Female,Chicago,90283,6,7903.78,2023-03-02,Churned
+62,Customer_62,43,Female,New York,46034,17,7756.88,2023-03-03,Churned
+63,Customer_63,19,Male,Chicago,45149,14,6038.08,2023-03-04,Churned
+64,Customer_64,22,Male,Los Angeles,42166,7,4605.86,2023-03-05,Active
+65,Customer_65,58,Male,Chicago,94817,6,5626.51,2023-03-06,Active
+66,Customer_66,28,Female,Los Angeles,102574,13,9470.01,2023-03-07,Churned
+67,Customer_67,41,Male,Chicago,100066,9,3208.29,2023-03-08,Churned
+68,Customer_68,57,Male,Houston,62611,12,8700.97,2023-03-09,Active
+69,Customer_69,38,Male,New York,30446,17,2303.88,2023-03-10,Churned
+70,Customer_70,55,Male,Houston,68880,16,7354.05,2023-03-11,Churned
+71,Customer_71,60,Female,Houston,100924,10,4131.42,2023-03-12,Active
+72,Customer_72,63,Female,Phoenix,68803,18,4277.66,2023-03-13,Active
+73,Customer_73,19,Male,Chicago,55060,18,7113.73,2023-03-14,Churned
+74,Customer_74,24,Male,Chicago,92616,12,5808.33,2023-03-15,Churned
+75,Customer_75,49,Male,Houston,80596,1,7565.45,2023-03-16,Active
+76,Customer_76,63,Female,Phoenix,68876,15,4116.28,2023-03-17,Churned
+77,Customer_77,65,Male,Chicago,49549,6,3096.54,2023-03-18,Churned
+78,Customer_78,50,Female,Chicago,81816,15,5349.47,2023-03-19,Active
+79,Customer_79,52,Female,Chicago,90785,19,6207.17,2023-03-20,Churned
+80,Customer_80,39,Female,Phoenix,54359,2,1435.57,2023-03-21,Churned
+81,Customer_81,29,Female,Los Angeles,67719,9,5976.87,2023-03-22,Active
+82,Customer_82,64,Male,New York,97403,11,1686.19,2023-03-23,Churned
+83,Customer_83,55,Male,Houston,97370,9,8547.69,2023-03-24,Churned
+84,Customer_84,41,Male,Phoenix,107545,14,3417.4,2023-03-25,Churned
+85,Customer_85,48,Male,Houston,52297,15,7730.96,2023-03-26,Churned
+86,Customer_86,47,Female,Houston,54864,6,9203.58,2023-03-27,Churned
+87,Customer_87,61,Female,New York,50434,16,1600.0,2023-03-28,Active
+88,Customer_88,34,Female,Houston,107541,4,1843.66,2023-03-29,Churned
+89,Customer_89,45,Male,Chicago,85733,8,9810.26,2023-03-30,Churned
+90,Customer_90,37,Female,Los Angeles,96276,7,8465.28,2023-03-31,Active
+91,Customer_91,49,Male,Chicago,42956,11,1716.04,2023-04-01,Active
+92,Customer_92,55,Male,Phoenix,90424,1,7591.14,2023-04-02,Active
+93,Customer_93,60,Female,Houston,98040,9,2171.41,2023-04-03,Churned
+94,Customer_94,34,Female,Chicago,44206,12,9880.48,2023-04-04,Churned
+95,Customer_95,24,Male,Phoenix,79085,6,1807.69,2023-04-05,Active
+96,Customer_96,48,Female,Los Angeles,54052,15,5295.45,2023-04-06,Churned
+97,Customer_97,67,Female,Los Angeles,47494,4,6258.29,2023-04-07,Active
+98,Customer_98,47,Male,Phoenix,117459,3,5587.42,2023-04-08,Active
+99,Customer_99,30,Male,Phoenix,35150,7,2637.89,2023-04-09,Active
+100,Customer_100,24,Female,Chicago,97083,6,5116.18,2023-04-10,Churned
+101,Customer_101,34,Female,Los Angeles,97296,12,6035.18,2023-04-11,Churned
+102,Customer_102,69,Male,Chicago,82797,9,1718.04,2023-04-12,Churned
+103,Customer_103,65,Male,New York,59155,16,578.08,2023-04-13,Churned
+104,Customer_104,41,Female,Phoenix,33178,5,8816.19,2023-04-14,Active
+105,Customer_105,54,Female,Houston,33617,13,7331.52,2023-04-15,Churned
+106,Customer_106,21,Male,Phoenix,70726,17,8054.25,2023-04-16,Churned
+107,Customer_107,24,Male,Chicago,103481,13,8310.46,2023-04-17,Active
+108,Customer_108,37,Male,Houston,97132,10,3619.77,2023-04-18,Churned
+109,Customer_109,41,Female,Phoenix,103853,14,558.81,2023-04-19,Active
+110,Customer_110,61,Female,Chicago,73847,4,9478.06,2023-04-20,Active
+111,Customer_111,54,Male,New York,118772,19,7588.2,2023-04-21,Churned
+112,Customer_112,27,Male,Los Angeles,30125,13,4972.71,2023-04-22,Active
+113,Customer_113,33,Female,Houston,104964,20,8142.36,2023-04-23,Active
+114,Customer_114,66,Female,Los Angeles,39788,6,6924.08,2023-04-24,Churned
+115,Customer_115,18,Male,New York,33690,18,9316.31,2023-04-25,Active
+116,Customer_116,32,Male,Los Angeles,60056,6,2650.91,2023-04-26,Active
+117,Customer_117,26,Female,Houston,88014,17,9978.91,2023-04-27,Active
+118,Customer_118,32,Female,Los Angeles,80738,6,1825.34,2023-04-28,Active
+119,Customer_119,54,Female,Los Angeles,107427,14,6180.94,2023-04-29,Active
+120,Customer_120,44,Female,Phoenix,42236,12,5588.0,2023-04-30,Active
+121,Customer_121,59,Male,Los Angeles,45486,14,2476.44,2023-05-01,Active
+122,Customer_122,52,Female,New York,118692,19,1627.05,2023-05-02,Active
+123,Customer_123,58,Male,Chicago,95944,1,8736.79,2023-05-03,Active
+124,Customer_124,35,Female,Chicago,112897,5,6436.57,2023-05-04,Churned
+125,Customer_125,69,Female,Los Angeles,72994,8,3540.14,2023-05-05,Active
+126,Customer_126,27,Male,Houston,63817,19,2932.09,2023-05-06,Churned
+127,Customer_127,64,Female,Houston,84926,1,6679.58,2023-05-07,Churned
+128,Customer_128,43,Male,Phoenix,33570,4,3179.65,2023-05-08,Active
+129,Customer_129,43,Male,Phoenix,52464,14,2100.17,2023-05-09,Active
+130,Customer_130,40,Female,Houston,112353,1,6858.67,2023-05-10,Churned
+131,Customer_131,68,Female,Chicago,76175,20,3406.41,2023-05-11,Churned
+132,Customer_132,62,Female,Phoenix,35665,1,2019.67,2023-05-12,Active
+133,Customer_133,21,Female,Phoenix,68780,6,4837.97,2023-05-13,Churned
+134,Customer_134,63,Female,Chicago,56094,8,9569.34,2023-05-14,Active
+135,Customer_135,69,Female,Los Angeles,64021,14,3680.55,2023-05-15,Active
+136,Customer_136,57,Male,Phoenix,104566,11,3733.78,2023-05-16,Active
+137,Customer_137,61,Male,Phoenix,42541,12,9946.6,2023-05-17,Churned
+138,Customer_138,57,Male,Houston,65682,11,5597.08,2023-05-18,Active
+139,Customer_139,57,Male,Chicago,43161,17,7352.19,2023-05-19,Churned
+140,Customer_140,60,Male,Phoenix,111369,9,5245.05,2023-05-20,Churned
+141,Customer_141,32,Female,Chicago,119101,1,5974.16,2023-05-21,Churned
+142,Customer_142,48,Female,Houston,70061,1,4621.8,2023-05-22,Active
+143,Customer_143,54,Female,Phoenix,72979,19,9990.37,2023-05-23,Churned
+144,Customer_144,31,Male,New York,115777,12,4374.18,2023-05-24,Churned
+145,Customer_145,20,Female,Houston,113453,1,5271.22,2023-05-25,Churned
+146,Customer_146,70,Female,Los Angeles,106555,1,7264.94,2023-05-26,Churned
+147,Customer_147,39,Female,New York,84509,10,9345.29,2023-05-27,Active
+148,Customer_148,57,Female,Los Angeles,47540,6,5873.89,2023-05-28,Churned
+149,Customer_149,46,Male,Chicago,88293,18,5692.65,2023-05-29,Churned
+150,Customer_150,68,Female,Los Angeles,93242,14,9764.2,2023-05-30,Churned
+151,Customer_151,38,Male,Phoenix,102287,18,1628.44,2023-05-31,Active
+152,Customer_152,33,Female,Los Angeles,56798,2,4346.78,2023-06-01,Active
+153,Customer_153,43,Male,Phoenix,116036,18,5279.57,2023-06-02,Active
+154,Customer_154,61,Male,New York,107622,1,2019.68,2023-06-03,Churned
+155,Customer_155,37,Female,Los Angeles,62345,16,2108.06,2023-06-04,Active
+156,Customer_156,32,Male,Los Angeles,91757,14,9376.48,2023-06-05,Churned
+157,Customer_157,57,Female,Phoenix,46616,4,6341.76,2023-06-06,Active
+158,Customer_158,26,Male,New York,49752,7,1784.41,2023-06-07,Churned
+159,Customer_159,26,Male,Chicago,116134,20,6450.67,2023-06-08,Churned
+160,Customer_160,41,Male,Houston,40935,14,1678.9,2023-06-09,Churned
+161,Customer_161,26,Male,Los Angeles,70559,18,7427.15,2023-06-10,Active
+162,Customer_162,66,Female,Houston,61232,8,5878.14,2023-06-11,Churned
+163,Customer_163,56,Female,New York,75685,1,819.22,2023-06-12,Active
+164,Customer_164,50,Male,Houston,65327,13,9886.6,2023-06-13,Churned
+165,Customer_165,58,Female,Houston,115442,12,5257.35,2023-06-14,Churned
+166,Customer_166,46,Male,New York,68412,9,4440.44,2023-06-15,Churned
+167,Customer_167,18,Male,Los Angeles,35769,18,3971.86,2023-06-16,Active
+168,Customer_168,30,Male,New York,110546,7,5115.66,2023-06-17,Churned
+169,Customer_169,59,Male,Los Angeles,71720,16,8215.27,2023-06-18,Active
+170,Customer_170,32,Male,Phoenix,67700,8,9339.03,2023-06-19,Churned
+171,Customer_171,48,Male,Chicago,109041,14,3480.72,2023-06-20,Active
+172,Customer_172,60,Female,Phoenix,105467,13,4364.63,2023-06-21,Churned
+173,Customer_173,27,Female,Los Angeles,112565,20,4575.08,2023-06-22,Active
+174,Customer_174,32,Female,Los Angeles,66060,11,2511.8,2023-06-23,Churned
+175,Customer_175,20,Male,Chicago,44395,4,6211.78,2023-06-24,Churned
+176,Customer_176,65,Male,Los Angeles,72151,19,6956.86,2023-06-25,Active
+177,Customer_177,58,Male,New York,70636,4,6037.74,2023-06-26,Churned
+178,Customer_178,25,Male,Phoenix,57531,14,1457.81,2023-06-27,Active
+179,Customer_179,58,Male,New York,114972,3,6428.19,2023-06-28,Churned
+180,Customer_180,69,Female,Chicago,99297,14,1195.01,2023-06-29,Active
+181,Customer_181,40,Male,Phoenix,55443,20,4885.57,2023-06-30,Churned
+182,Customer_182,56,Male,New York,67944,6,3269.93,2023-07-01,Active
+183,Customer_183,64,Male,Houston,42157,4,3367.47,2023-07-02,Churned
+184,Customer_184,59,Male,Phoenix,117104,15,4055.2,2023-07-03,Active
+185,Customer_185,34,Female,Houston,98940,4,1256.2,2023-07-04,Churned
+186,Customer_186,70,Male,Phoenix,116635,10,8033.45,2023-07-05,Active
+187,Customer_187,19,Female,Houston,55480,1,2704.24,2023-07-06,Churned
+188,Customer_188,23,Female,Chicago,66882,20,9149.79,2023-07-07,Active
+189,Customer_189,45,Male,New York,114387,20,4603.1,2023-07-08,Active
+190,Customer_190,44,Female,Los Angeles,105763,8,9556.66,2023-07-09,Churned
+191,Customer_191,20,Male,Chicago,106643,3,4251.85,2023-07-10,Active
+192,Customer_192,68,Male,Phoenix,109065,16,923.79,2023-07-11,Churned
+193,Customer_193,56,Female,Houston,107904,1,2700.08,2023-07-12,Churned
+194,Customer_194,65,Female,Chicago,104859,1,2902.68,2023-07-13,Active
+195,Customer_195,19,Male,Chicago,106437,6,6419.67,2023-07-14,Churned
+196,Customer_196,42,Male,Los Angeles,73359,10,5858.18,2023-07-15,Churned
+197,Customer_197,26,Female,Houston,59799,9,9784.94,2023-07-16,Churned
+198,Customer_198,18,Male,Los Angeles,44694,4,1241.37,2023-07-17,Active
+199,Customer_199,45,Female,Phoenix,93805,7,8107.21,2023-07-18,Active
+200,Customer_200,38,Female,Los Angeles,72147,7,7350.91,2023-07-19,Churned
+201,Customer_201,59,Male,Chicago,41635,20,714.06,2023-07-20,Churned
+202,Customer_202,51,Female,Phoenix,43013,13,941.36,2023-07-21,Active
+203,Customer_203,53,Female,Houston,40868,15,8796.25,2023-07-22,Churned
+204,Customer_204,38,Male,New York,49165,9,4591.54,2023-07-23,Churned
+205,Customer_205,22,Male,Chicago,117423,20,7606.45,2023-07-24,Active
+206,Customer_206,51,Female,Houston,73336,14,2529.22,2023-07-25,Churned
+207,Customer_207,52,Female,Phoenix,69169,15,8126.98,2023-07-26,Active
+208,Customer_208,46,Female,Phoenix,38542,15,2858.13,2023-07-27,Churned
+209,Customer_209,26,Female,Chicago,106307,5,9536.55,2023-07-28,Churned
+210,Customer_210,54,Female,Los Angeles,72040,14,8218.56,2023-07-29,Active
+211,Customer_211,66,Female,Los Angeles,86410,14,9680.98,2023-07-30,Active
+212,Customer_212,52,Male,Houston,32702,17,3391.38,2023-07-31,Active
+213,Customer_213,28,Female,Phoenix,102687,10,2222.31,2023-08-01,Churned
+214,Customer_214,40,Female,Houston,75954,5,3236.07,2023-08-02,Churned
+215,Customer_215,40,Female,Los Angeles,90839,9,3455.64,2023-08-03,Churned
+216,Customer_216,37,Male,Chicago,118389,5,9776.52,2023-08-04,Churned
+217,Customer_217,68,Male,Phoenix,99528,12,5005.98,2023-08-05,Active
+218,Customer_218,64,Male,Houston,57316,4,7927.78,2023-08-06,Churned
+219,Customer_219,30,Male,Houston,67505,4,7908.81,2023-08-07,Churned
+220,Customer_220,32,Female,Houston,52489,16,3041.63,2023-08-08,Active
+221,Customer_221,46,Female,New York,70543,16,5353.06,2023-08-09,Active
+222,Customer_222,24,Female,Phoenix,40627,15,2360.07,2023-08-10,Churned
+223,Customer_223,54,Female,Chicago,79667,18,3303.63,2023-08-11,Active
+224,Customer_224,43,Male,Houston,86265,17,5317.33,2023-08-12,Active
+225,Customer_225,58,Male,Chicago,61085,8,7179.9,2023-08-13,Churned
+226,Customer_226,38,Female,Houston,86559,8,7086.99,2023-08-14,Active
+227,Customer_227,60,Female,Chicago,60579,18,3136.43,2023-08-15,Churned
+228,Customer_228,48,Female,Chicago,54775,19,511.46,2023-08-16,Churned
+229,Customer_229,59,Female,Chicago,41638,10,3240.34,2023-08-17,Churned
+230,Customer_230,52,Male,New York,73935,3,601.94,2023-08-18,Active
+231,Customer_231,56,Male,Chicago,77935,6,5617.18,2023-08-19,Churned
+232,Customer_232,28,Male,Chicago,102756,20,3009.93,2023-08-20,Churned
+233,Customer_233,67,Female,Chicago,79425,15,5966.45,2023-08-21,Active
+234,Customer_234,42,Male,Phoenix,87085,5,7431.37,2023-08-22,Active
+235,Customer_235,29,Female,New York,69692,10,1631.5,2023-08-23,Churned
+236,Customer_236,61,Male,New York,32725,18,3509.72,2023-08-24,Active
+237,Customer_237,67,Female,Phoenix,46161,16,2088.24,2023-08-25,Active
+238,Customer_238,45,Male,Los Angeles,93433,16,9349.95,2023-08-26,Active
+239,Customer_239,68,Female,Chicago,76863,3,783.99,2023-08-27,Active
+240,Customer_240,51,Female,Los Angeles,98974,6,2287.22,2023-08-28,Active
+241,Customer_241,55,Female,Los Angeles,54194,15,4322.16,2023-08-29,Active
+242,Customer_242,64,Male,Los Angeles,89524,2,3734.78,2023-08-30,Churned
+243,Customer_243,68,Female,Chicago,39158,10,1637.28,2023-08-31,Active
+244,Customer_244,44,Male,Los Angeles,35644,19,3588.39,2023-09-01,Active
+245,Customer_245,46,Female,Phoenix,39545,8,9090.89,2023-09-02,Active
+246,Customer_246,19,Female,New York,110028,10,2191.88,2023-09-03,Active
+247,Customer_247,18,Male,Los Angeles,67910,18,7853.63,2023-09-04,Churned
+248,Customer_248,32,Female,Houston,56805,2,5958.48,2023-09-05,Churned
+249,Customer_249,63,Female,Los Angeles,92647,4,5283.79,2023-09-06,Active
+250,Customer_250,68,Male,Los Angeles,106631,8,9675.33,2023-09-07,Churned
+251,Customer_251,22,Male,Phoenix,42994,12,9768.43,2023-09-08,Active
+252,Customer_252,24,Female,Houston,62754,3,5340.4,2023-09-09,Active
+253,Customer_253,29,Male,New York,68116,9,8784.08,2023-09-10,Churned
+254,Customer_254,58,Male,Los Angeles,93619,19,7661.92,2023-09-11,Active
+255,Customer_255,64,Female,Phoenix,66311,13,6932.81,2023-09-12,Churned
+256,Customer_256,28,Female,New York,79979,13,582.57,2023-09-13,Churned
+257,Customer_257,50,Female,Chicago,65924,10,3693.17,2023-09-14,Active
+258,Customer_258,31,Female,Houston,52840,3,9664.56,2023-09-15,Churned
+259,Customer_259,48,Male,Chicago,56459,4,3910.48,2023-09-16,Churned
+260,Customer_260,58,Male,Los Angeles,96537,2,6437.68,2023-09-17,Churned
+261,Customer_261,41,Female,Phoenix,118000,8,6078.99,2023-09-18,Active
+262,Customer_262,36,Male,Chicago,30905,8,9083.41,2023-09-19,Churned
+263,Customer_263,48,Male,Phoenix,75532,12,7919.25,2023-09-20,Churned
+264,Customer_264,24,Female,Houston,105380,18,1428.44,2023-09-21,Churned
+265,Customer_265,60,Female,Phoenix,55027,5,6590.17,2023-09-22,Churned
+266,Customer_266,59,Female,Phoenix,93929,17,6388.86,2023-09-23,Active
+267,Customer_267,35,Female,Phoenix,41521,1,2437.39,2023-09-24,Active
+268,Customer_268,36,Female,Chicago,50617,8,5774.08,2023-09-25,Churned
+269,Customer_269,54,Female,Houston,66342,6,6434.7,2023-09-26,Active
+270,Customer_270,33,Female,Los Angeles,116009,19,3369.65,2023-09-27,Active
+271,Customer_271,44,Female,Houston,64106,4,5644.9,2023-09-28,Active
+272,Customer_272,56,Male,Chicago,97097,14,4832.57,2023-09-29,Active
+273,Customer_273,30,Female,New York,99727,1,3908.19,2023-09-30,Active
+274,Customer_274,30,Female,Phoenix,92047,19,6774.52,2023-10-01,Active
+275,Customer_275,58,Female,Houston,45312,12,5649.43,2023-10-02,Active
+276,Customer_276,23,Female,Los Angeles,64796,5,6552.02,2023-10-03,Churned
+277,Customer_277,66,Male,Chicago,75788,8,5621.02,2023-10-04,Active
+278,Customer_278,27,Female,New York,118466,8,3714.4,2023-10-05,Active
+279,Customer_279,30,Female,Phoenix,37156,13,5016.1,2023-10-06,Active
+280,Customer_280,39,Male,Houston,55083,4,854.9,2023-10-07,Churned
+281,Customer_281,52,Female,Phoenix,72255,15,5400.27,2023-10-08,Churned
+282,Customer_282,25,Female,Chicago,55799,20,536.56,2023-10-09,Active
+283,Customer_283,22,Female,Chicago,42887,14,1460.23,2023-10-10,Active
+284,Customer_284,46,Male,Houston,66174,11,7823.21,2023-10-11,Churned
+285,Customer_285,37,Male,Chicago,36230,5,5738.62,2023-10-12,Active
+286,Customer_286,52,Female,Phoenix,86827,18,7591.69,2023-10-13,Active
+287,Customer_287,52,Male,Los Angeles,73119,13,4668.59,2023-10-14,Churned
+288,Customer_288,45,Male,Phoenix,73546,4,3679.84,2023-10-15,Active
+289,Customer_289,56,Male,Chicago,49367,13,5457.54,2023-10-16,Churned
+290,Customer_290,36,Male,Phoenix,98062,11,6106.59,2023-10-17,Churned
+291,Customer_291,35,Female,New York,114509,2,5720.63,2023-10-18,Churned
+292,Customer_292,28,Female,Chicago,43497,20,7199.89,2023-10-19,Active
+293,Customer_293,26,Female,New York,65968,8,4010.15,2023-10-20,Churned
+294,Customer_294,26,Male,New York,34173,1,3850.27,2023-10-21,Active
+295,Customer_295,58,Female,Houston,66389,2,6725.64,2023-10-22,Churned
+296,Customer_296,39,Male,Phoenix,99884,8,7809.35,2023-10-23,Active
+297,Customer_297,43,Male,Los Angeles,82323,8,1303.85,2023-10-24,Churned
+298,Customer_298,29,Female,Houston,35959,16,4740.05,2023-10-25,Active
+299,Customer_299,22,Female,Chicago,111839,18,5036.95,2023-10-26,Churned
+300,Customer_300,59,Male,Houston,111163,6,3057.19,2023-10-27,Churned
+301,Customer_301,63,Male,Phoenix,56160,3,1907.67,2023-10-28,Active
+302,Customer_302,25,Male,Los Angeles,44825,12,2089.43,2023-10-29,Churned
+303,Customer_303,58,Male,Chicago,30906,2,5716.79,2023-10-30,Churned
+304,Customer_304,49,Male,Chicago,90152,11,6597.8,2023-10-31,Active
+305,Customer_305,51,Male,Los Angeles,101522,16,1025.76,2023-11-01,Active
+306,Customer_306,51,Male,Chicago,66693,2,3008.69,2023-11-02,Active
+307,Customer_307,30,Female,Phoenix,107303,19,7702.87,2023-11-03,Active
+308,Customer_308,40,Male,New York,111730,16,783.09,2023-11-04,Active
+309,Customer_309,44,Female,New York,117503,18,4372.39,2023-11-05,Active
+310,Customer_310,66,Female,Los Angeles,50706,16,8114.63,2023-11-06,Active
+311,Customer_311,58,Male,Chicago,112118,11,2451.48,2023-11-07,Churned
+312,Customer_312,36,Male,Chicago,95377,9,8592.18,2023-11-08,Active
+313,Customer_313,28,Male,Los Angeles,87425,14,7641.46,2023-11-09,Churned
+314,Customer_314,31,Female,New York,32289,12,6207.75,2023-11-10,Churned
+315,Customer_315,22,Female,New York,72693,11,2746.11,2023-11-11,Churned
+316,Customer_316,49,Female,New York,57551,9,7555.56,2023-11-12,Churned
+317,Customer_317,26,Female,Chicago,71069,12,7843.47,2023-11-13,Active
+318,Customer_318,53,Female,New York,58360,8,7760.58,2023-11-14,Churned
+319,Customer_319,59,Male,Houston,116183,3,7686.9,2023-11-15,Active
+320,Customer_320,21,Male,New York,111915,19,4515.7,2023-11-16,Churned
+321,Customer_321,18,Male,Los Angeles,118727,11,6890.82,2023-11-17,Churned
+322,Customer_322,26,Female,Los Angeles,58740,14,2191.97,2023-11-18,Active
+323,Customer_323,41,Male,Phoenix,99681,10,572.35,2023-11-19,Churned
+324,Customer_324,50,Male,New York,68926,6,4619.26,2023-11-20,Active
+325,Customer_325,69,Male,Chicago,100868,15,2487.67,2023-11-21,Active
+326,Customer_326,54,Female,Los Angeles,47608,19,5559.61,2023-11-22,Active
+327,Customer_327,52,Female,Houston,109574,15,2341.21,2023-11-23,Churned
+328,Customer_328,62,Female,Chicago,30753,18,1006.55,2023-11-24,Active
+329,Customer_329,27,Male,New York,37413,18,4792.33,2023-11-25,Churned
+330,Customer_330,37,Male,Phoenix,67228,3,3257.67,2023-11-26,Churned
+331,Customer_331,60,Male,Phoenix,38608,1,7918.42,2023-11-27,Active
+332,Customer_332,40,Male,Houston,101248,9,6305.91,2023-11-28,Churned
+333,Customer_333,27,Female,Los Angeles,60694,16,3532.07,2023-11-29,Churned
+334,Customer_334,30,Male,Houston,92663,10,2150.34,2023-11-30,Churned
+335,Customer_335,19,Female,Chicago,82086,4,3404.35,2023-12-01,Churned
+336,Customer_336,58,Female,Houston,49446,6,4056.52,2023-12-02,Churned
+337,Customer_337,29,Female,Houston,67669,2,1897.89,2023-12-03,Churned
+338,Customer_338,20,Female,Los Angeles,77963,18,6301.28,2023-12-04,Churned
+339,Customer_339,65,Male,New York,40248,14,4133.56,2023-12-05,Churned
+340,Customer_340,37,Female,New York,44122,12,1329.39,2023-12-06,Active
+341,Customer_341,22,Female,Houston,49319,20,2963.95,2023-12-07,Churned
+342,Customer_342,23,Male,Phoenix,30734,20,2466.99,2023-12-08,Churned
+343,Customer_343,25,Male,Chicago,99239,12,9616.06,2023-12-09,Churned
+344,Customer_344,31,Male,Chicago,35690,16,2295.74,2023-12-10,Active
+345,Customer_345,31,Male,Phoenix,53714,20,8217.8,2023-12-11,Active
+346,Customer_346,39,Female,New York,45812,7,6514.12,2023-12-12,Churned
+347,Customer_347,65,Female,Chicago,51054,19,9112.74,2023-12-13,Churned
+348,Customer_348,55,Female,Los Angeles,34902,18,3160.25,2023-12-14,Active
+349,Customer_349,56,Female,Houston,93043,9,2803.3,2023-12-15,Active
+350,Customer_350,28,Male,Houston,104659,20,3962.65,2023-12-16,Active
+351,Customer_351,31,Female,Phoenix,91996,14,9708.06,2023-12-17,Active
+352,Customer_352,54,Female,Chicago,71817,10,3206.01,2023-12-18,Active
+353,Customer_353,65,Male,Phoenix,89462,5,9250.77,2023-12-19,Churned
+354,Customer_354,28,Female,Los Angeles,54430,7,1821.91,2023-12-20,Churned
+355,Customer_355,29,Male,Chicago,116227,10,3847.14,2023-12-21,Churned
+356,Customer_356,69,Male,New York,116201,19,2864.13,2023-12-22,Churned
+357,Customer_357,47,Female,Chicago,33759,1,2149.65,2023-12-23,Churned
+358,Customer_358,22,Female,Phoenix,47427,7,1799.99,2023-12-24,Churned
+359,Customer_359,30,Female,Phoenix,76164,5,2253.86,2023-12-25,Active
+360,Customer_360,42,Female,Los Angeles,88126,13,1739.92,2023-12-26,Churned
+361,Customer_361,27,Male,New York,46633,12,9428.65,2023-12-27,Churned
+362,Customer_362,39,Female,Los Angeles,114511,5,3862.3,2023-12-28,Active
+363,Customer_363,62,Male,Houston,79675,16,7498.49,2023-12-29,Churned
+364,Customer_364,37,Female,New York,90764,4,2896.35,2023-12-30,Churned
+365,Customer_365,27,Female,Chicago,96023,2,1301.9,2023-12-31,Churned
+366,Customer_366,24,Male,Chicago,80843,2,5661.78,2024-01-01,Active
+367,Customer_367,49,Male,Chicago,55284,8,770.38,2024-01-02,Churned
+368,Customer_368,50,Female,Houston,83744,15,7727.13,2024-01-03,Churned
+369,Customer_369,48,Male,Phoenix,66259,18,7291.59,2024-01-04,Churned
+370,Customer_370,45,Female,New York,83728,8,6623.6,2024-01-05,Active
+371,Customer_371,62,Female,Los Angeles,43749,17,8053.25,2024-01-06,Churned
+372,Customer_372,50,Female,Chicago,75604,11,3634.09,2024-01-07,Churned
+373,Customer_373,55,Male,Los Angeles,113810,9,4986.9,2024-01-08,Active
+374,Customer_374,30,Male,New York,63308,10,5161.48,2024-01-09,Churned
+375,Customer_375,21,Male,Chicago,82092,4,1671.04,2024-01-10,Active
+376,Customer_376,68,Male,Los Angeles,72319,18,3777.52,2024-01-11,Active
+377,Customer_377,27,Female,Phoenix,70903,15,2917.8,2024-01-12,Churned
+378,Customer_378,30,Female,Houston,93479,19,2621.66,2024-01-13,Active
+379,Customer_379,70,Male,New York,78687,1,2026.68,2024-01-14,Active
+380,Customer_380,68,Female,New York,92691,20,4806.65,2024-01-15,Churned
+381,Customer_381,31,Female,Chicago,34987,8,7283.92,2024-01-16,Active
+382,Customer_382,33,Male,Los Angeles,87979,8,7105.05,2024-01-17,Churned
+383,Customer_383,28,Male,Phoenix,59277,14,1919.5,2024-01-18,Churned
+384,Customer_384,45,Male,Chicago,50743,1,6913.2,2024-01-19,Active
+385,Customer_385,65,Male,New York,98264,16,1319.3,2024-01-20,Churned
+386,Customer_386,40,Female,Chicago,81296,18,6422.17,2024-01-21,Active
+387,Customer_387,40,Male,Los Angeles,117377,5,1866.23,2024-01-22,Churned
+388,Customer_388,62,Female,Houston,103560,3,9384.62,2024-01-23,Active
+389,Customer_389,53,Male,Phoenix,53738,20,2870.92,2024-01-24,Active
+390,Customer_390,39,Female,Phoenix,47890,2,4881.98,2024-01-25,Churned
+391,Customer_391,34,Female,Los Angeles,53753,16,6650.53,2024-01-26,Churned
+392,Customer_392,35,Male,Phoenix,100023,8,8763.69,2024-01-27,Active
+393,Customer_393,27,Male,Phoenix,45824,11,7935.84,2024-01-28,Active
+394,Customer_394,57,Male,Chicago,52012,12,7286.74,2024-01-29,Churned
+395,Customer_395,18,Female,Chicago,73223,1,6832.43,2024-01-30,Churned
+396,Customer_396,59,Female,Chicago,86842,3,3428.72,2024-01-31,Churned
+397,Customer_397,53,Female,Houston,98734,1,2419.59,2024-02-01,Active
+398,Customer_398,66,Female,Los Angeles,30355,13,3677.54,2024-02-02,Churned
+399,Customer_399,64,Male,Houston,61916,7,6839.03,2024-02-03,Active
+400,Customer_400,42,Female,Chicago,66017,13,3566.83,2024-02-04,Churned
+401,Customer_401,49,Male,Phoenix,68070,1,8158.57,2024-02-05,Active
+402,Customer_402,18,Female,Chicago,109203,14,1384.83,2024-02-06,Active
+403,Customer_403,66,Male,Houston,107510,20,8874.58,2024-02-07,Active
+404,Customer_404,49,Male,Los Angeles,119562,4,9144.27,2024-02-08,Active
+405,Customer_405,53,Male,Phoenix,71482,7,2130.57,2024-02-09,Active
+406,Customer_406,69,Female,Los Angeles,116819,12,4789.96,2024-02-10,Active
+407,Customer_407,66,Male,Los Angeles,117761,4,9992.14,2024-02-11,Active
+408,Customer_408,54,Male,Phoenix,86564,3,5738.09,2024-02-12,Active
+409,Customer_409,52,Male,Phoenix,114671,1,6373.4,2024-02-13,Churned
+410,Customer_410,37,Male,Phoenix,86062,5,510.59,2024-02-14,Active
+411,Customer_411,19,Female,Los Angeles,114415,7,4939.82,2024-02-15,Active
+412,Customer_412,58,Male,Los Angeles,72388,16,5673.32,2024-02-16,Churned
+413,Customer_413,69,Male,Houston,69024,2,7712.0,2024-02-17,Active
+414,Customer_414,69,Male,New York,99248,7,5744.06,2024-02-18,Churned
+415,Customer_415,62,Male,Los Angeles,103055,12,2735.25,2024-02-19,Active
+416,Customer_416,36,Female,Chicago,76486,14,7989.01,2024-02-20,Active
+417,Customer_417,59,Male,Los Angeles,100334,20,7405.77,2024-02-21,Churned
+418,Customer_418,31,Male,New York,106803,3,7644.16,2024-02-22,Active
+419,Customer_419,52,Female,New York,114138,12,1396.98,2024-02-23,Active
+420,Customer_420,64,Female,Phoenix,103172,5,5746.22,2024-02-24,Active
+421,Customer_421,41,Female,Houston,82373,18,597.87,2024-02-25,Active
+422,Customer_422,29,Female,New York,87807,1,4813.51,2024-02-26,Churned
+423,Customer_423,66,Male,Los Angeles,109761,12,5602.73,2024-02-27,Churned
+424,Customer_424,57,Male,Chicago,114043,1,4194.39,2024-02-28,Churned
+425,Customer_425,50,Male,Los Angeles,108836,18,6829.41,2024-02-29,Active
+426,Customer_426,38,Female,Houston,42460,10,6964.21,2024-03-01,Active
+427,Customer_427,40,Female,Phoenix,117312,10,713.85,2024-03-02,Active
+428,Customer_428,20,Male,Los Angeles,75478,18,3150.81,2024-03-03,Active
+429,Customer_429,34,Female,Houston,78020,8,5170.7,2024-03-04,Active
+430,Customer_430,60,Female,Chicago,91553,2,7628.52,2024-03-05,Active
+431,Customer_431,29,Female,Los Angeles,31510,18,7121.16,2024-03-06,Churned
+432,Customer_432,21,Female,Houston,87508,5,5400.84,2024-03-07,Churned
+433,Customer_433,21,Female,Phoenix,42737,3,5933.0,2024-03-08,Active
+434,Customer_434,27,Female,Chicago,79167,7,7771.99,2024-03-09,Active
+435,Customer_435,49,Male,Houston,118974,19,6751.88,2024-03-10,Active
+436,Customer_436,49,Female,New York,30910,8,4077.7,2024-03-11,Active
+437,Customer_437,52,Female,Houston,112318,18,2069.48,2024-03-12,Active
+438,Customer_438,66,Male,Los Angeles,114906,13,564.8,2024-03-13,Churned
+439,Customer_439,69,Female,Phoenix,115630,3,4935.93,2024-03-14,Active
+440,Customer_440,43,Male,Los Angeles,92222,17,4446.83,2024-03-15,Active
+441,Customer_441,22,Male,Phoenix,33250,15,2286.27,2024-03-16,Churned
+442,Customer_442,21,Female,Houston,58939,11,4664.09,2024-03-17,Active
+443,Customer_443,24,Female,New York,77219,17,1535.11,2024-03-18,Active
+444,Customer_444,40,Female,Phoenix,93367,10,6703.97,2024-03-19,Active
+445,Customer_445,59,Female,New York,36432,11,9743.72,2024-03-20,Active
+446,Customer_446,36,Female,Chicago,51705,13,1380.11,2024-03-21,Churned
+447,Customer_447,46,Female,Los Angeles,50480,6,7128.83,2024-03-22,Churned
+448,Customer_448,38,Male,Chicago,74158,3,3927.78,2024-03-23,Active
+449,Customer_449,29,Female,Los Angeles,81312,15,5527.68,2024-03-24,Churned
+450,Customer_450,28,Male,Houston,93237,17,6790.42,2024-03-25,Churned
+451,Customer_451,49,Female,Chicago,104989,10,8181.52,2024-03-26,Active
+452,Customer_452,32,Female,New York,87738,16,5403.34,2024-03-27,Active
+453,Customer_453,46,Female,New York,93104,1,6507.19,2024-03-28,Churned
+454,Customer_454,20,Male,Chicago,54516,11,6996.86,2024-03-29,Churned
+455,Customer_455,70,Female,New York,98207,1,7357.07,2024-03-30,Active
+456,Customer_456,25,Female,New York,118461,14,6507.86,2024-03-31,Churned
+457,Customer_457,45,Female,Houston,37355,13,1436.19,2024-04-01,Active
+458,Customer_458,51,Male,Chicago,38387,18,5077.32,2024-04-02,Active
+459,Customer_459,35,Male,Los Angeles,70457,14,6456.21,2024-04-03,Churned
+460,Customer_460,58,Male,New York,46803,17,8855.35,2024-04-04,Active
+461,Customer_461,53,Female,New York,32324,10,8587.69,2024-04-05,Active
+462,Customer_462,20,Male,Chicago,71877,20,9016.55,2024-04-06,Churned
+463,Customer_463,32,Male,Chicago,80804,10,3269.39,2024-04-07,Active
+464,Customer_464,37,Male,Houston,69253,18,6247.45,2024-04-08,Active
+465,Customer_465,45,Male,Phoenix,81618,18,5453.29,2024-04-09,Churned
+466,Customer_466,46,Female,Houston,85881,19,8438.7,2024-04-10,Active
+467,Customer_467,50,Male,Phoenix,90814,15,5403.99,2024-04-11,Active
+468,Customer_468,63,Male,New York,42238,7,1424.55,2024-04-12,Churned
+469,Customer_469,30,Male,Chicago,83854,13,7987.53,2024-04-13,Churned
+470,Customer_470,56,Female,New York,102251,15,3631.61,2024-04-14,Active
+471,Customer_471,19,Male,Houston,62358,11,5886.19,2024-04-15,Churned
+472,Customer_472,58,Female,Phoenix,114112,19,9360.37,2024-04-16,Churned
+473,Customer_473,58,Male,New York,105188,9,1252.23,2024-04-17,Active
+474,Customer_474,52,Female,New York,32495,16,7589.17,2024-04-18,Active
+475,Customer_475,34,Female,Houston,96890,20,6922.56,2024-04-19,Churned
+476,Customer_476,60,Male,Los Angeles,72566,13,1356.31,2024-04-20,Churned
+477,Customer_477,43,Male,Houston,108932,8,1357.42,2024-04-21,Churned
+478,Customer_478,61,Male,Houston,87239,19,9973.65,2024-04-22,Active
+479,Customer_479,59,Male,Phoenix,86268,3,3645.84,2024-04-23,Active
+480,Customer_480,36,Female,Chicago,90739,16,1280.86,2024-04-24,Active
+481,Customer_481,30,Female,Houston,92460,20,9942.89,2024-04-25,Churned
+482,Customer_482,66,Female,Houston,44144,1,2599.03,2024-04-26,Active
+483,Customer_483,43,Male,Houston,102035,7,1434.06,2024-04-27,Active
+484,Customer_484,20,Female,Chicago,88337,10,8153.2,2024-04-28,Churned
+485,Customer_485,63,Female,Los Angeles,91894,14,3806.73,2024-04-29,Churned
+486,Customer_486,69,Male,Chicago,56516,5,3084.43,2024-04-30,Active
+487,Customer_487,24,Female,Los Angeles,114837,3,6541.87,2024-05-01,Active
+488,Customer_488,24,Male,Houston,108803,20,8116.04,2024-05-02,Churned
+489,Customer_489,43,Male,Houston,104065,4,7767.5,2024-05-03,Active
+490,Customer_490,39,Male,Chicago,30134,6,1967.75,2024-05-04,Active
+491,Customer_491,34,Female,Houston,63828,19,8365.52,2024-05-05,Active
+492,Customer_492,33,Female,Chicago,80639,20,3906.27,2024-05-06,Churned
+493,Customer_493,32,Female,New York,88048,18,2316.4,2024-05-07,Active
+494,Customer_494,44,Female,Houston,65442,10,2835.92,2024-05-08,Active
+495,Customer_495,50,Female,Phoenix,48145,17,9216.99,2024-05-09,Active
+496,Customer_496,19,Female,New York,94199,2,2926.15,2024-05-10,Churned
+497,Customer_497,21,Male,Los Angeles,36794,13,7817.52,2024-05-11,Churned
+498,Customer_498,33,Male,Los Angeles,82620,16,4717.47,2024-05-12,Churned
+499,Customer_499,48,Female,Chicago,105999,15,3270.79,2024-05-13,Active
+500,Customer_500,19,Female,Los Angeles,55567,7,7131.14,2024-05-14,Churned
+501,Customer_501,48,Female,Houston,32482,12,1461.39,2024-05-15,Active
+502,Customer_502,70,Male,Houston,31737,2,3076.41,2024-05-16,Churned
+503,Customer_503,55,Male,Los Angeles,41957,6,7022.19,2024-05-17,Churned
+504,Customer_504,38,Female,Phoenix,57634,7,2247.58,2024-05-18,Churned
+505,Customer_505,29,Male,Chicago,80450,12,866.71,2024-05-19,Active
+506,Customer_506,63,Male,Houston,108072,9,8402.06,2024-05-20,Churned
+507,Customer_507,40,Male,Phoenix,34041,16,3581.6,2024-05-21,Active
+508,Customer_508,30,Female,Los Angeles,96402,4,1022.33,2024-05-22,Active
+509,Customer_509,58,Male,Phoenix,30962,19,838.2,2024-05-23,Active
+510,Customer_510,30,Male,Chicago,48669,11,5550.93,2024-05-24,Active
+511,Customer_511,20,Male,Phoenix,65715,18,4392.49,2024-05-25,Active
+512,Customer_512,19,Female,Los Angeles,52275,7,9010.91,2024-05-26,Churned
+513,Customer_513,64,Female,Chicago,53393,5,3073.87,2024-05-27,Active
+514,Customer_514,52,Male,Los Angeles,45278,5,3156.49,2024-05-28,Churned
+515,Customer_515,49,Male,Houston,71565,14,2336.08,2024-05-29,Churned
+516,Customer_516,47,Male,New York,86306,18,1599.74,2024-05-30,Active
+517,Customer_517,18,Male,Chicago,71056,15,9313.07,2024-05-31,Active
+518,Customer_518,32,Female,Chicago,63381,6,907.4,2024-06-01,Active
+519,Customer_519,64,Female,Los Angeles,72183,3,1521.34,2024-06-02,Active
+520,Customer_520,48,Female,Phoenix,85139,5,4228.12,2024-06-03,Active
+521,Customer_521,24,Male,Los Angeles,69479,17,9974.18,2024-06-04,Churned
+522,Customer_522,37,Female,Phoenix,68186,10,2983.43,2024-06-05,Active
+523,Customer_523,50,Male,New York,75039,15,1117.27,2024-06-06,Active
+524,Customer_524,30,Male,Phoenix,91798,5,4566.62,2024-06-07,Churned
+525,Customer_525,44,Female,New York,107464,13,2986.91,2024-06-08,Churned
+526,Customer_526,27,Female,Los Angeles,101328,15,4212.23,2024-06-09,Churned
+527,Customer_527,70,Female,Chicago,77088,18,4418.37,2024-06-10,Churned
+528,Customer_528,48,Male,Chicago,100135,11,5325.72,2024-06-11,Churned
+529,Customer_529,34,Male,New York,92152,9,6309.01,2024-06-12,Active
+530,Customer_530,36,Female,Los Angeles,59809,15,8017.19,2024-06-13,Churned
+531,Customer_531,70,Male,New York,75744,12,8472.49,2024-06-14,Churned
+532,Customer_532,61,Female,Chicago,96814,3,4448.09,2024-06-15,Active
+533,Customer_533,34,Female,Phoenix,59037,15,3106.32,2024-06-16,Active
+534,Customer_534,47,Female,Houston,80227,19,7116.99,2024-06-17,Active
+535,Customer_535,45,Female,New York,72302,14,4418.88,2024-06-18,Churned
+536,Customer_536,57,Male,Los Angeles,55264,8,3436.99,2024-06-19,Active
+537,Customer_537,32,Female,Los Angeles,94924,12,1979.15,2024-06-20,Churned
+538,Customer_538,61,Male,Los Angeles,76885,10,3894.83,2024-06-21,Churned
+539,Customer_539,57,Male,New York,39055,12,8432.1,2024-06-22,Active
+540,Customer_540,57,Male,Phoenix,51789,20,5999.91,2024-06-23,Active
+541,Customer_541,28,Male,Chicago,104499,9,6460.36,2024-06-24,Active
+542,Customer_542,53,Male,Chicago,39354,9,2076.6,2024-06-25,Active
+543,Customer_543,35,Female,Houston,110847,18,1292.86,2024-06-26,Active
+544,Customer_544,66,Female,Chicago,76510,11,9266.13,2024-06-27,Active
+545,Customer_545,28,Female,New York,62668,7,733.5,2024-06-28,Active
+546,Customer_546,27,Female,Los Angeles,112003,6,3834.34,2024-06-29,Active
+547,Customer_547,28,Female,Los Angeles,59031,6,3627.65,2024-06-30,Churned
+548,Customer_548,57,Male,Chicago,114328,12,4713.06,2024-07-01,Active
+549,Customer_549,59,Male,Los Angeles,97026,14,5422.85,2024-07-02,Active
+550,Customer_550,52,Female,Houston,80963,2,6407.93,2024-07-03,Active
+551,Customer_551,57,Male,Phoenix,39928,10,6887.05,2024-07-04,Active
+552,Customer_552,53,Female,Chicago,106834,16,6675.63,2024-07-05,Churned
+553,Customer_553,52,Male,Los Angeles,85902,5,3568.68,2024-07-06,Churned
+554,Customer_554,24,Male,Los Angeles,101897,8,1207.87,2024-07-07,Churned
+555,Customer_555,24,Female,Houston,62680,7,1458.19,2024-07-08,Active
+556,Customer_556,29,Female,Houston,40427,5,8819.81,2024-07-09,Churned
+557,Customer_557,62,Female,Los Angeles,91706,8,4906.98,2024-07-10,Active
+558,Customer_558,22,Male,New York,59688,11,3562.0,2024-07-11,Active
+559,Customer_559,50,Male,Chicago,59059,20,9909.88,2024-07-12,Active
+560,Customer_560,59,Male,Chicago,49659,18,7056.21,2024-07-13,Active
+561,Customer_561,25,Male,New York,46034,15,3827.66,2024-07-14,Active
+562,Customer_562,45,Male,Chicago,81365,17,5170.94,2024-07-15,Active
+563,Customer_563,30,Male,Los Angeles,70196,4,9966.31,2024-07-16,Churned
+564,Customer_564,26,Male,Los Angeles,62546,16,2549.73,2024-07-17,Active
+565,Customer_565,55,Female,New York,65529,9,4780.56,2024-07-18,Active
+566,Customer_566,54,Female,Phoenix,42967,17,2667.67,2024-07-19,Active
+567,Customer_567,64,Female,New York,34208,17,6664.57,2024-07-20,Churned
+568,Customer_568,36,Male,Chicago,41511,20,1012.35,2024-07-21,Churned
+569,Customer_569,35,Female,New York,104581,17,9398.37,2024-07-22,Churned
+570,Customer_570,44,Male,Chicago,35876,5,1191.9,2024-07-23,Churned
+571,Customer_571,52,Female,Houston,115453,4,6367.98,2024-07-24,Churned
+572,Customer_572,67,Female,Los Angeles,59186,15,5929.68,2024-07-25,Churned
+573,Customer_573,26,Female,Phoenix,59236,6,935.65,2024-07-26,Churned
+574,Customer_574,59,Female,Chicago,44533,8,2385.08,2024-07-27,Active
+575,Customer_575,66,Female,New York,58962,19,2864.47,2024-07-28,Churned
+576,Customer_576,31,Male,New York,81889,16,3599.54,2024-07-29,Churned
+577,Customer_577,50,Male,Chicago,90161,10,8458.75,2024-07-30,Active
+578,Customer_578,29,Male,Phoenix,106774,20,7632.99,2024-07-31,Active
+579,Customer_579,64,Female,Houston,83487,18,4280.5,2024-08-01,Churned
+580,Customer_580,27,Male,New York,104974,9,5840.12,2024-08-02,Active
+581,Customer_581,37,Female,Los Angeles,34801,10,1123.74,2024-08-03,Churned
+582,Customer_582,29,Male,Phoenix,49211,4,2426.43,2024-08-04,Active
+583,Customer_583,42,Male,Chicago,97236,19,2835.7,2024-08-05,Active
+584,Customer_584,35,Female,Chicago,36458,18,2887.93,2024-08-06,Churned
+585,Customer_585,46,Male,Houston,98241,9,9121.97,2024-08-07,Churned
+586,Customer_586,41,Female,Houston,44835,14,2139.21,2024-08-08,Churned
+587,Customer_587,37,Female,Los Angeles,68689,13,1520.38,2024-08-09,Churned
+588,Customer_588,61,Male,Houston,79959,18,4246.55,2024-08-10,Active
+589,Customer_589,22,Female,Houston,39107,3,4792.65,2024-08-11,Active
+590,Customer_590,60,Male,Phoenix,59809,15,9993.58,2024-08-12,Churned
+591,Customer_591,68,Female,Phoenix,53591,6,8177.33,2024-08-13,Churned
+592,Customer_592,36,Male,New York,74960,18,4586.76,2024-08-14,Churned
+593,Customer_593,21,Female,New York,55160,1,1462.81,2024-08-15,Churned
+594,Customer_594,31,Male,Los Angeles,78546,2,5868.2,2024-08-16,Churned
+595,Customer_595,64,Female,Los Angeles,102394,10,1831.64,2024-08-17,Active
+596,Customer_596,42,Male,New York,33368,2,3962.95,2024-08-18,Active
+597,Customer_597,29,Female,Phoenix,69503,6,8751.57,2024-08-19,Active
+598,Customer_598,29,Male,Los Angeles,40959,19,8381.0,2024-08-20,Active
+599,Customer_599,63,Male,Los Angeles,107337,13,7198.22,2024-08-21,Active
+600,Customer_600,23,Female,Los Angeles,77383,14,8525.44,2024-08-22,Churned
+601,Customer_601,43,Male,New York,67884,12,1703.59,2024-08-23,Churned
+602,Customer_602,39,Male,New York,34928,4,1140.14,2024-08-24,Active
+603,Customer_603,38,Male,Houston,103936,1,9667.28,2024-08-25,Active
+604,Customer_604,64,Male,Los Angeles,56989,19,5182.15,2024-08-26,Churned
+605,Customer_605,67,Male,Houston,89727,8,9616.75,2024-08-27,Churned
+606,Customer_606,29,Female,Chicago,66792,20,8145.86,2024-08-28,Churned
+607,Customer_607,48,Male,Phoenix,71598,15,707.2,2024-08-29,Churned
+608,Customer_608,33,Female,Chicago,35825,11,1532.12,2024-08-30,Churned
+609,Customer_609,29,Male,Houston,45357,11,9709.86,2024-08-31,Churned
+610,Customer_610,24,Male,Phoenix,62651,6,6154.57,2024-09-01,Churned
+611,Customer_611,38,Female,Houston,85332,17,648.43,2024-09-02,Active
+612,Customer_612,36,Male,Chicago,66088,14,1832.89,2024-09-03,Active
+613,Customer_613,49,Female,Los Angeles,57356,8,2543.97,2024-09-04,Active
+614,Customer_614,45,Female,Houston,81373,12,3879.18,2024-09-05,Churned
+615,Customer_615,62,Female,Los Angeles,83568,9,9720.6,2024-09-06,Churned
+616,Customer_616,68,Male,Los Angeles,48739,18,1933.0,2024-09-07,Churned
+617,Customer_617,36,Female,New York,112610,4,4421.99,2024-09-08,Churned
+618,Customer_618,66,Female,Houston,98143,8,6055.15,2024-09-09,Active
+619,Customer_619,39,Female,New York,68575,20,8072.81,2024-09-10,Active
+620,Customer_620,29,Male,Houston,114730,12,4493.95,2024-09-11,Churned
+621,Customer_621,39,Male,Houston,54502,14,4038.0,2024-09-12,Churned
+622,Customer_622,30,Male,Chicago,99144,16,849.54,2024-09-13,Active
+623,Customer_623,39,Female,Los Angeles,55903,13,9819.59,2024-09-14,Churned
+624,Customer_624,50,Female,Los Angeles,110037,5,3444.23,2024-09-15,Active
+625,Customer_625,44,Male,Phoenix,41213,15,7001.14,2024-09-16,Churned
+626,Customer_626,52,Male,Houston,84208,15,1873.69,2024-09-17,Active
+627,Customer_627,29,Female,Los Angeles,83227,1,6435.47,2024-09-18,Active
+628,Customer_628,43,Female,Phoenix,107123,2,7034.08,2024-09-19,Active
+629,Customer_629,48,Female,Chicago,68753,7,9674.11,2024-09-20,Active
+630,Customer_630,62,Male,Houston,91055,13,8285.94,2024-09-21,Churned
+631,Customer_631,42,Male,Houston,89474,3,9434.91,2024-09-22,Active
+632,Customer_632,40,Male,Los Angeles,113027,2,6297.04,2024-09-23,Active
+633,Customer_633,30,Female,Houston,51030,12,1701.32,2024-09-24,Churned
+634,Customer_634,38,Male,Chicago,80558,1,616.87,2024-09-25,Churned
+635,Customer_635,42,Female,Chicago,76769,17,4536.86,2024-09-26,Churned
+636,Customer_636,43,Female,Phoenix,82056,13,2874.45,2024-09-27,Active
+637,Customer_637,44,Male,Los Angeles,45839,20,9382.93,2024-09-28,Churned
+638,Customer_638,35,Female,Chicago,92533,10,5438.36,2024-09-29,Churned
+639,Customer_639,27,Female,Phoenix,58860,2,5472.6,2024-09-30,Churned
+640,Customer_640,56,Female,Phoenix,118523,9,2384.35,2024-10-01,Churned
+641,Customer_641,57,Female,Phoenix,101988,4,7314.56,2024-10-02,Churned
+642,Customer_642,56,Female,Chicago,69368,5,6407.16,2024-10-03,Active
+643,Customer_643,36,Male,New York,67197,8,1511.28,2024-10-04,Active
+644,Customer_644,64,Male,Los Angeles,42896,11,4733.42,2024-10-05,Churned
+645,Customer_645,40,Female,New York,92432,14,6552.1,2024-10-06,Active
+646,Customer_646,45,Male,Chicago,82315,20,9254.56,2024-10-07,Active
+647,Customer_647,25,Male,Los Angeles,101002,17,4308.4,2024-10-08,Active
+648,Customer_648,46,Female,Chicago,89403,5,6805.5,2024-10-09,Active
+649,Customer_649,68,Female,Houston,37865,3,1857.62,2024-10-10,Active
+650,Customer_650,54,Female,Houston,33826,9,5928.81,2024-10-11,Active
+651,Customer_651,64,Female,Houston,72404,16,5870.44,2024-10-12,Churned
+652,Customer_652,52,Male,Phoenix,105309,14,8338.69,2024-10-13,Churned
+653,Customer_653,38,Male,Phoenix,100682,7,9768.26,2024-10-14,Churned
+654,Customer_654,62,Female,Los Angeles,55772,5,605.24,2024-10-15,Churned
+655,Customer_655,65,Female,Los Angeles,88310,14,4023.57,2024-10-16,Churned
+656,Customer_656,51,Male,Chicago,60348,6,4562.44,2024-10-17,Churned
+657,Customer_657,51,Female,Houston,87442,13,2083.59,2024-10-18,Active
+658,Customer_658,68,Female,Chicago,93279,13,721.2,2024-10-19,Active
+659,Customer_659,52,Male,Houston,108305,13,4113.13,2024-10-20,Active
+660,Customer_660,54,Female,Houston,49696,11,5924.49,2024-10-21,Active
+661,Customer_661,61,Female,Chicago,106341,18,8554.83,2024-10-22,Active
+662,Customer_662,20,Male,New York,68455,2,1462.81,2024-10-23,Churned
+663,Customer_663,49,Male,Los Angeles,38719,11,6455.16,2024-10-24,Active
+664,Customer_664,42,Female,New York,31842,4,5136.5,2024-10-25,Active
+665,Customer_665,30,Female,Phoenix,94648,17,5732.74,2024-10-26,Churned
+666,Customer_666,24,Male,Los Angeles,103877,15,6299.21,2024-10-27,Churned
+667,Customer_667,18,Female,New York,101397,19,1984.87,2024-10-28,Active
+668,Customer_668,41,Male,Chicago,31830,6,9011.17,2024-10-29,Churned
+669,Customer_669,52,Female,Houston,58432,14,695.87,2024-10-30,Churned
+670,Customer_670,53,Female,Chicago,97305,3,6116.26,2024-10-31,Churned
+671,Customer_671,40,Female,Chicago,44359,11,1600.61,2024-11-01,Churned
+672,Customer_672,37,Male,New York,60579,3,5732.27,2024-11-02,Churned
+673,Customer_673,40,Female,New York,91407,14,1511.65,2024-11-03,Active
+674,Customer_674,35,Female,Los Angeles,61974,8,1646.49,2024-11-04,Churned
+675,Customer_675,44,Female,Los Angeles,52935,10,1450.81,2024-11-05,Churned
+676,Customer_676,53,Female,New York,95669,12,2316.6,2024-11-06,Active
+677,Customer_677,57,Female,Chicago,113879,19,5999.44,2024-11-07,Churned
+678,Customer_678,57,Female,Houston,54678,19,9359.21,2024-11-08,Churned
+679,Customer_679,29,Female,New York,64856,11,4745.51,2024-11-09,Churned
+680,Customer_680,64,Male,Chicago,108906,7,8497.96,2024-11-10,Churned
+681,Customer_681,29,Male,New York,69276,2,4547.02,2024-11-11,Active
+682,Customer_682,49,Male,New York,95740,12,5214.21,2024-11-12,Active
+683,Customer_683,62,Female,Los Angeles,117966,9,6902.47,2024-11-13,Active
+684,Customer_684,58,Female,Houston,99922,19,1322.26,2024-11-14,Active
+685,Customer_685,36,Female,Phoenix,47833,12,1620.75,2024-11-15,Churned
+686,Customer_686,27,Male,Chicago,89214,5,8120.43,2024-11-16,Active
+687,Customer_687,36,Female,New York,73577,10,6121.83,2024-11-17,Churned
+688,Customer_688,44,Male,Los Angeles,53151,15,5352.93,2024-11-18,Churned
+689,Customer_689,39,Male,Los Angeles,49497,15,6896.22,2024-11-19,Active
+690,Customer_690,37,Male,Los Angeles,113788,8,8126.85,2024-11-20,Active
+691,Customer_691,34,Female,Phoenix,105782,6,1793.75,2024-11-21,Active
+692,Customer_692,34,Female,Los Angeles,44532,8,3608.1,2024-11-22,Churned
+693,Customer_693,31,Male,Phoenix,66323,17,4597.95,2024-11-23,Active
+694,Customer_694,27,Female,Chicago,59246,16,9880.5,2024-11-24,Churned
+695,Customer_695,37,Female,Houston,40788,1,5845.7,2024-11-25,Active
+696,Customer_696,48,Female,Phoenix,68206,20,7591.37,2024-11-26,Churned
+697,Customer_697,54,Female,Houston,76115,10,7619.09,2024-11-27,Active
+698,Customer_698,37,Female,Houston,65381,10,6959.33,2024-11-28,Churned
+699,Customer_699,25,Male,Los Angeles,70085,4,6490.67,2024-11-29,Churned
+700,Customer_700,20,Female,Phoenix,38282,13,5688.75,2024-11-30,Active
+701,Customer_701,33,Male,Houston,77542,8,7280.23,2024-12-01,Churned
+702,Customer_702,58,Female,Chicago,113857,11,7709.87,2024-12-02,Active
+703,Customer_703,63,Female,Phoenix,119022,9,9572.61,2024-12-03,Active
+704,Customer_704,27,Male,New York,50234,6,6271.78,2024-12-04,Active
+705,Customer_705,42,Female,Chicago,98387,15,7548.34,2024-12-05,Churned
+706,Customer_706,29,Male,Los Angeles,116375,11,6435.91,2024-12-06,Churned
+707,Customer_707,47,Female,Chicago,114291,2,6959.51,2024-12-07,Active
+708,Customer_708,25,Female,Houston,117898,15,5774.05,2024-12-08,Churned
+709,Customer_709,25,Female,Los Angeles,117725,1,7864.85,2024-12-09,Active
+710,Customer_710,61,Female,Los Angeles,54907,18,6440.35,2024-12-10,Active
+711,Customer_711,18,Male,Houston,72971,20,2395.83,2024-12-11,Active
+712,Customer_712,19,Male,Phoenix,58061,11,5668.53,2024-12-12,Active
+713,Customer_713,47,Female,Phoenix,47002,12,7925.73,2024-12-13,Active
+714,Customer_714,59,Female,Houston,118905,20,7155.56,2024-12-14,Active
+715,Customer_715,45,Male,Houston,51876,10,4218.88,2024-12-15,Active
+716,Customer_716,69,Female,Phoenix,87347,14,2609.25,2024-12-16,Active
+717,Customer_717,61,Female,Los Angeles,102797,1,1241.21,2024-12-17,Active
+718,Customer_718,49,Male,Chicago,104612,7,7073.9,2024-12-18,Active
+719,Customer_719,27,Female,Phoenix,61819,11,7028.66,2024-12-19,Active
+720,Customer_720,24,Female,Phoenix,49953,7,5359.49,2024-12-20,Active
+721,Customer_721,44,Female,Houston,85216,12,2449.96,2024-12-21,Active
+722,Customer_722,22,Male,New York,50761,17,2618.39,2024-12-22,Active
+723,Customer_723,42,Male,Los Angeles,58559,7,868.55,2024-12-23,Active
+724,Customer_724,27,Female,Houston,58824,16,2054.73,2024-12-24,Churned
+725,Customer_725,67,Male,Phoenix,94805,7,7303.6,2024-12-25,Churned
+726,Customer_726,65,Male,New York,72336,7,2083.34,2024-12-26,Churned
+727,Customer_727,64,Female,Houston,46912,4,3277.62,2024-12-27,Churned
+728,Customer_728,67,Male,Houston,34984,15,6480.2,2024-12-28,Churned
+729,Customer_729,54,Female,Chicago,106645,14,6394.49,2024-12-29,Churned
+730,Customer_730,44,Female,New York,82906,8,2170.79,2024-12-30,Churned
+731,Customer_731,40,Male,New York,71707,6,4152.2,2024-12-31,Churned
+732,Customer_732,53,Female,Houston,43094,1,1994.49,2025-01-01,Active
+733,Customer_733,48,Male,Los Angeles,101450,7,3285.87,2025-01-02,Churned
+734,Customer_734,66,Female,Chicago,73818,11,5387.81,2025-01-03,Churned
+735,Customer_735,32,Female,New York,39827,10,7216.31,2025-01-04,Active
+736,Customer_736,57,Male,Houston,103686,6,9610.45,2025-01-05,Churned
+737,Customer_737,23,Female,Los Angeles,85741,6,2611.89,2025-01-06,Active
+738,Customer_738,68,Female,Phoenix,44076,2,8290.35,2025-01-07,Churned
+739,Customer_739,24,Female,New York,93148,17,9135.31,2025-01-08,Active
+740,Customer_740,29,Female,Phoenix,33528,7,3591.58,2025-01-09,Churned
+741,Customer_741,65,Male,Los Angeles,37215,12,9443.39,2025-01-10,Churned
+742,Customer_742,40,Female,Phoenix,104743,4,7164.46,2025-01-11,Active
+743,Customer_743,23,Male,Los Angeles,105022,14,6336.4,2025-01-12,Active
+744,Customer_744,67,Male,Houston,108227,3,2455.66,2025-01-13,Churned
+745,Customer_745,61,Male,Phoenix,46554,20,1223.76,2025-01-14,Active
+746,Customer_746,64,Male,Los Angeles,52148,3,3624.98,2025-01-15,Active
+747,Customer_747,23,Male,Phoenix,48633,5,8643.16,2025-01-16,Active
+748,Customer_748,62,Female,New York,40857,19,5526.47,2025-01-17,Churned
+749,Customer_749,27,Female,Houston,88232,13,1519.45,2025-01-18,Active
+750,Customer_750,51,Male,Chicago,30774,6,3087.8,2025-01-19,Active
+751,Customer_751,54,Female,Chicago,61321,15,9204.49,2025-01-20,Active
+752,Customer_752,23,Female,New York,86331,13,5939.21,2025-01-21,Churned
+753,Customer_753,22,Male,New York,62258,12,2606.08,2025-01-22,Active
+754,Customer_754,41,Male,Phoenix,114289,9,5430.94,2025-01-23,Active
+755,Customer_755,27,Male,Chicago,65029,12,3630.88,2025-01-24,Active
+756,Customer_756,63,Male,Phoenix,110384,18,4304.07,2025-01-25,Active
+757,Customer_757,41,Female,Phoenix,80206,3,6382.79,2025-01-26,Active
+758,Customer_758,27,Female,New York,111945,12,721.76,2025-01-27,Active
+759,Customer_759,18,Female,Houston,86518,5,5237.83,2025-01-28,Active
+760,Customer_760,23,Male,Houston,118641,14,3397.59,2025-01-29,Active
+761,Customer_761,45,Male,Phoenix,38451,6,8811.73,2025-01-30,Churned
+762,Customer_762,64,Female,Houston,48108,20,1462.4,2025-01-31,Active
+763,Customer_763,25,Female,New York,36785,4,5003.29,2025-02-01,Churned
+764,Customer_764,35,Female,Phoenix,68843,16,2367.65,2025-02-02,Churned
+765,Customer_765,36,Female,New York,109601,13,6650.11,2025-02-03,Churned
+766,Customer_766,44,Male,Houston,84151,12,7241.06,2025-02-04,Active
+767,Customer_767,41,Male,New York,30651,2,9965.37,2025-02-05,Active
+768,Customer_768,67,Female,Houston,76469,20,8772.56,2025-02-06,Active
+769,Customer_769,28,Female,Phoenix,40871,19,3156.94,2025-02-07,Active
+770,Customer_770,29,Female,New York,97489,8,9035.84,2025-02-08,Churned
+771,Customer_771,50,Male,Chicago,45717,19,6366.9,2025-02-09,Churned
+772,Customer_772,27,Female,Los Angeles,104917,4,6881.05,2025-02-10,Churned
+773,Customer_773,66,Male,Los Angeles,30089,13,4059.83,2025-02-11,Churned
+774,Customer_774,25,Male,Chicago,102558,3,6761.68,2025-02-12,Churned
+775,Customer_775,30,Male,Phoenix,60719,8,657.21,2025-02-13,Active
+776,Customer_776,30,Female,Houston,86039,13,5206.1,2025-02-14,Active
+777,Customer_777,46,Female,New York,107211,2,2807.16,2025-02-15,Churned
+778,Customer_778,49,Female,Phoenix,74619,17,4453.03,2025-02-16,Churned
+779,Customer_779,21,Female,New York,86050,11,2190.38,2025-02-17,Churned
+780,Customer_780,46,Female,Los Angeles,103131,14,7150.12,2025-02-18,Active
+781,Customer_781,31,Male,Chicago,75898,4,1098.41,2025-02-19,Churned
+782,Customer_782,55,Male,Los Angeles,117500,16,716.95,2025-02-20,Churned
+783,Customer_783,41,Male,Los Angeles,69675,15,8599.45,2025-02-21,Churned
+784,Customer_784,42,Female,Phoenix,83918,18,5222.96,2025-02-22,Churned
+785,Customer_785,27,Male,Houston,72940,18,5011.8,2025-02-23,Churned
+786,Customer_786,43,Male,Houston,71654,19,6066.66,2025-02-24,Churned
+787,Customer_787,45,Male,Los Angeles,41566,12,4630.36,2025-02-25,Active
+788,Customer_788,34,Male,Chicago,69863,7,9642.45,2025-02-26,Churned
+789,Customer_789,34,Female,Phoenix,52947,17,6117.23,2025-02-27,Active
+790,Customer_790,70,Female,Los Angeles,62392,17,4735.52,2025-02-28,Active
+791,Customer_791,52,Male,Phoenix,54870,20,2177.49,2025-03-01,Churned
+792,Customer_792,42,Male,Phoenix,66323,9,7828.42,2025-03-02,Active
+793,Customer_793,28,Male,New York,119902,9,6343.61,2025-03-03,Active
+794,Customer_794,41,Male,New York,33395,6,6603.3,2025-03-04,Active
+795,Customer_795,45,Female,Los Angeles,86461,15,8373.76,2025-03-05,Active
+796,Customer_796,19,Male,Los Angeles,44512,11,3208.81,2025-03-06,Churned
+797,Customer_797,24,Male,Chicago,92464,17,6603.0,2025-03-07,Active
+798,Customer_798,69,Male,Los Angeles,48659,20,3928.88,2025-03-08,Churned
+799,Customer_799,36,Female,Chicago,49432,10,8163.01,2025-03-09,Active
+800,Customer_800,18,Female,Phoenix,67030,3,1454.66,2025-03-10,Active
+801,Customer_801,64,Male,Los Angeles,114311,17,6457.28,2025-03-11,Active
+802,Customer_802,38,Male,New York,115038,10,6936.43,2025-03-12,Churned
+803,Customer_803,52,Male,Houston,56584,13,3978.48,2025-03-13,Churned
+804,Customer_804,69,Male,Chicago,106856,9,1532.77,2025-03-14,Active
+805,Customer_805,33,Male,Los Angeles,113992,10,1290.95,2025-03-15,Churned
+806,Customer_806,62,Female,New York,117156,1,4218.96,2025-03-16,Churned
+807,Customer_807,70,Female,Houston,94975,15,7960.84,2025-03-17,Churned
+808,Customer_808,35,Female,Los Angeles,63369,7,4245.08,2025-03-18,Active
+809,Customer_809,61,Female,Houston,47019,15,9141.02,2025-03-19,Churned
+810,Customer_810,52,Male,Chicago,98674,13,2501.93,2025-03-20,Churned
+811,Customer_811,56,Female,Los Angeles,112775,8,7006.5,2025-03-21,Active
+812,Customer_812,27,Male,Phoenix,79622,15,7873.45,2025-03-22,Churned
+813,Customer_813,31,Female,Chicago,61356,3,1580.28,2025-03-23,Active
+814,Customer_814,51,Male,New York,33909,17,9034.55,2025-03-24,Churned
+815,Customer_815,51,Male,Los Angeles,116230,5,716.07,2025-03-25,Churned
+816,Customer_816,37,Male,Chicago,45166,4,1793.49,2025-03-26,Active
+817,Customer_817,23,Female,Los Angeles,91184,4,8957.22,2025-03-27,Active
+818,Customer_818,58,Female,New York,99307,16,8043.24,2025-03-28,Churned
+819,Customer_819,21,Male,Los Angeles,60742,13,6827.99,2025-03-29,Active
+820,Customer_820,29,Female,Houston,68190,3,9581.95,2025-03-30,Churned
+821,Customer_821,65,Male,New York,83260,1,3296.04,2025-03-31,Active
+822,Customer_822,23,Female,Phoenix,72998,13,7351.22,2025-04-01,Churned
+823,Customer_823,32,Male,Los Angeles,50747,16,6916.49,2025-04-02,Churned
+824,Customer_824,60,Male,Los Angeles,88229,18,7315.01,2025-04-03,Active
+825,Customer_825,62,Female,Los Angeles,94770,18,9884.5,2025-04-04,Churned
+826,Customer_826,31,Male,New York,78201,19,4673.03,2025-04-05,Active
+827,Customer_827,58,Male,Los Angeles,37249,10,5483.35,2025-04-06,Churned
+828,Customer_828,35,Female,Houston,35320,16,3518.09,2025-04-07,Active
+829,Customer_829,39,Male,New York,90582,15,5176.38,2025-04-08,Active
+830,Customer_830,27,Female,Los Angeles,34162,15,7205.06,2025-04-09,Active
+831,Customer_831,66,Female,Chicago,48355,14,3141.23,2025-04-10,Churned
+832,Customer_832,59,Female,Phoenix,111944,4,9216.58,2025-04-11,Active
+833,Customer_833,61,Male,Los Angeles,47429,11,3686.43,2025-04-12,Churned
+834,Customer_834,58,Male,Phoenix,64174,12,3825.58,2025-04-13,Churned
+835,Customer_835,36,Female,Phoenix,90739,12,4823.53,2025-04-14,Churned
+836,Customer_836,47,Female,Los Angeles,54241,5,2103.87,2025-04-15,Active
+837,Customer_837,50,Female,Los Angeles,105476,8,4364.36,2025-04-16,Active
+838,Customer_838,42,Female,Los Angeles,55483,7,4624.7,2025-04-17,Active
+839,Customer_839,35,Male,Chicago,111984,16,2441.53,2025-04-18,Churned
+840,Customer_840,22,Male,Chicago,118683,4,6812.69,2025-04-19,Active
+841,Customer_841,26,Male,Chicago,56135,5,1385.12,2025-04-20,Active
+842,Customer_842,41,Female,New York,75856,16,4511.23,2025-04-21,Active
+843,Customer_843,23,Female,Chicago,48423,14,1244.75,2025-04-22,Churned
+844,Customer_844,25,Female,Chicago,80342,18,3670.72,2025-04-23,Active
+845,Customer_845,34,Male,New York,52804,8,3276.81,2025-04-24,Churned
+846,Customer_846,49,Female,Los Angeles,117680,16,8979.68,2025-04-25,Active
+847,Customer_847,21,Male,Chicago,39951,5,3730.98,2025-04-26,Active
+848,Customer_848,69,Male,Chicago,58204,13,6692.31,2025-04-27,Churned
+849,Customer_849,58,Male,New York,39210,10,3575.62,2025-04-28,Churned
+850,Customer_850,38,Female,Houston,38955,4,9103.35,2025-04-29,Active
+851,Customer_851,24,Female,Los Angeles,91016,6,9225.25,2025-04-30,Churned
+852,Customer_852,22,Male,Phoenix,94439,19,3385.17,2025-05-01,Active
+853,Customer_853,20,Male,Los Angeles,106315,14,1617.69,2025-05-02,Active
+854,Customer_854,28,Female,Houston,54937,5,2869.26,2025-05-03,Active
+855,Customer_855,18,Female,Phoenix,30999,19,2563.9,2025-05-04,Churned
+856,Customer_856,44,Male,Chicago,103656,9,7077.18,2025-05-05,Churned
+857,Customer_857,30,Female,Houston,31786,14,7052.35,2025-05-06,Churned
+858,Customer_858,47,Male,Phoenix,54867,2,5521.27,2025-05-07,Active
+859,Customer_859,48,Male,New York,77823,6,9261.47,2025-05-08,Active
+860,Customer_860,42,Male,Chicago,82354,5,6194.05,2025-05-09,Churned
+861,Customer_861,51,Female,New York,90695,20,688.42,2025-05-10,Active
+862,Customer_862,50,Male,Houston,67066,20,5626.69,2025-05-11,Churned
+863,Customer_863,55,Male,Chicago,55624,20,8007.01,2025-05-12,Churned
+864,Customer_864,42,Male,Los Angeles,79668,17,4379.22,2025-05-13,Churned
+865,Customer_865,33,Male,Phoenix,43167,3,4026.01,2025-05-14,Active
+866,Customer_866,23,Female,Houston,73445,4,4535.69,2025-05-15,Churned
+867,Customer_867,56,Female,Houston,92396,6,7416.16,2025-05-16,Churned
+868,Customer_868,20,Male,Los Angeles,71546,17,4937.88,2025-05-17,Active
+869,Customer_869,62,Male,Chicago,119188,15,4263.32,2025-05-18,Active
+870,Customer_870,53,Male,Phoenix,31035,18,7293.61,2025-05-19,Active
+871,Customer_871,45,Male,Chicago,75744,16,4892.8,2025-05-20,Churned
+872,Customer_872,22,Female,New York,36302,8,2839.15,2025-05-21,Churned
+873,Customer_873,43,Male,Chicago,46723,19,2270.36,2025-05-22,Active
+874,Customer_874,20,Female,New York,55567,3,1001.51,2025-05-23,Churned
+875,Customer_875,21,Female,Phoenix,73631,2,3214.09,2025-05-24,Churned
+876,Customer_876,53,Male,Phoenix,30916,10,3863.72,2025-05-25,Active
+877,Customer_877,56,Male,New York,36514,4,7924.22,2025-05-26,Churned
+878,Customer_878,22,Male,Phoenix,75223,20,1127.72,2025-05-27,Churned
+879,Customer_879,57,Female,Los Angeles,82729,12,4084.27,2025-05-28,Active
+880,Customer_880,59,Female,Phoenix,64128,11,2045.83,2025-05-29,Churned
+881,Customer_881,68,Male,Phoenix,81007,18,2926.48,2025-05-30,Active
+882,Customer_882,61,Female,Houston,68479,4,8452.62,2025-05-31,Active
+883,Customer_883,41,Female,Phoenix,60759,6,5462.98,2025-06-01,Active
+884,Customer_884,42,Male,Chicago,72078,4,1927.7,2025-06-02,Churned
+885,Customer_885,36,Female,Los Angeles,79734,2,2467.35,2025-06-03,Churned
+886,Customer_886,29,Female,Houston,90200,16,5227.27,2025-06-04,Churned
+887,Customer_887,42,Female,Phoenix,103154,8,8497.88,2025-06-05,Active
+888,Customer_888,67,Male,Chicago,32579,7,6189.84,2025-06-06,Active
+889,Customer_889,41,Female,Houston,72306,16,8778.4,2025-06-07,Churned
+890,Customer_890,36,Male,Phoenix,37108,5,5201.8,2025-06-08,Active
+891,Customer_891,25,Male,Phoenix,31501,5,8478.73,2025-06-09,Churned
+892,Customer_892,69,Female,Houston,99430,1,8277.61,2025-06-10,Active
+893,Customer_893,43,Male,Chicago,80113,15,1995.39,2025-06-11,Active
+894,Customer_894,64,Female,Houston,49026,1,9673.9,2025-06-12,Churned
+895,Customer_895,64,Female,Phoenix,80614,10,7890.65,2025-06-13,Churned
+896,Customer_896,60,Male,Los Angeles,112266,19,8524.08,2025-06-14,Churned
+897,Customer_897,48,Male,Los Angeles,103161,14,4385.53,2025-06-15,Churned
+898,Customer_898,70,Male,Houston,114105,18,2408.82,2025-06-16,Churned
+899,Customer_899,23,Male,Chicago,100797,19,1675.13,2025-06-17,Churned
+900,Customer_900,65,Female,Houston,64247,4,4923.11,2025-06-18,Active
+901,Customer_901,35,Female,Phoenix,79532,12,8338.82,2025-06-19,Churned
+902,Customer_902,70,Female,Phoenix,98819,19,9489.02,2025-06-20,Churned
+903,Customer_903,20,Female,Phoenix,94729,20,2498.84,2025-06-21,Churned
+904,Customer_904,64,Male,Phoenix,69866,10,8113.58,2025-06-22,Churned
+905,Customer_905,57,Female,Phoenix,75341,18,1083.2,2025-06-23,Active
+906,Customer_906,52,Male,Los Angeles,80626,17,8494.45,2025-06-24,Active
+907,Customer_907,63,Male,Phoenix,80766,12,9814.11,2025-06-25,Active
+908,Customer_908,51,Female,Chicago,57830,4,5237.51,2025-06-26,Churned
+909,Customer_909,32,Female,Chicago,66654,15,4170.83,2025-06-27,Churned
+910,Customer_910,48,Female,Phoenix,111812,15,8719.58,2025-06-28,Active
+911,Customer_911,57,Female,Los Angeles,113065,17,9985.56,2025-06-29,Active
+912,Customer_912,66,Female,Los Angeles,47475,15,8367.49,2025-06-30,Active
+913,Customer_913,40,Female,Los Angeles,108970,10,8060.27,2025-07-01,Churned
+914,Customer_914,20,Female,Houston,87229,8,4496.11,2025-07-02,Active
+915,Customer_915,59,Female,Phoenix,32386,19,6159.92,2025-07-03,Active
+916,Customer_916,43,Male,Los Angeles,84400,7,7278.98,2025-07-04,Active
+917,Customer_917,23,Female,New York,87520,10,5093.71,2025-07-05,Active
+918,Customer_918,18,Female,Houston,99396,1,5519.26,2025-07-06,Churned
+919,Customer_919,26,Female,Phoenix,93484,4,8976.21,2025-07-07,Churned
+920,Customer_920,19,Male,Chicago,111397,8,7674.82,2025-07-08,Active
+921,Customer_921,52,Male,New York,73258,9,8410.87,2025-07-09,Churned
+922,Customer_922,33,Male,Houston,89491,15,9403.34,2025-07-10,Churned
+923,Customer_923,64,Female,Houston,38401,19,3946.14,2025-07-11,Churned
+924,Customer_924,67,Female,Phoenix,72700,2,5935.04,2025-07-12,Churned
+925,Customer_925,54,Female,Houston,117018,11,931.04,2025-07-13,Active
+926,Customer_926,63,Male,Los Angeles,81771,15,5352.97,2025-07-14,Churned
+927,Customer_927,69,Male,New York,102350,16,9931.81,2025-07-15,Active
+928,Customer_928,28,Male,Los Angeles,31357,2,3049.65,2025-07-16,Active
+929,Customer_929,49,Female,Chicago,112461,5,5873.61,2025-07-17,Churned
+930,Customer_930,54,Female,Chicago,73027,13,9978.35,2025-07-18,Churned
+931,Customer_931,27,Male,Chicago,74537,7,1062.88,2025-07-19,Churned
+932,Customer_932,27,Male,New York,41332,9,8392.24,2025-07-20,Churned
+933,Customer_933,37,Male,Chicago,119585,18,5662.0,2025-07-21,Active
+934,Customer_934,43,Male,Phoenix,84648,17,6757.58,2025-07-22,Churned
+935,Customer_935,67,Female,Chicago,53569,9,3464.08,2025-07-23,Active
+936,Customer_936,66,Male,Los Angeles,48451,2,817.49,2025-07-24,Churned
+937,Customer_937,52,Male,Los Angeles,87352,1,9380.58,2025-07-25,Churned
+938,Customer_938,26,Male,Chicago,87735,1,2334.25,2025-07-26,Churned
+939,Customer_939,65,Female,Phoenix,43635,15,3420.69,2025-07-27,Active
+940,Customer_940,41,Female,Phoenix,88967,10,4507.14,2025-07-28,Churned
+941,Customer_941,23,Male,Chicago,68098,19,6069.83,2025-07-29,Churned
+942,Customer_942,50,Female,Los Angeles,52468,18,7656.74,2025-07-30,Active
+943,Customer_943,21,Male,Los Angeles,35154,2,8905.03,2025-07-31,Active
+944,Customer_944,61,Female,Houston,92193,2,9335.04,2025-08-01,Churned
+945,Customer_945,24,Male,Los Angeles,42105,9,1356.28,2025-08-02,Active
+946,Customer_946,58,Male,New York,60977,18,3666.33,2025-08-03,Active
+947,Customer_947,40,Male,Phoenix,101024,14,1729.54,2025-08-04,Active
+948,Customer_948,54,Male,Chicago,115835,2,937.27,2025-08-05,Active
+949,Customer_949,37,Male,Houston,108672,13,7502.74,2025-08-06,Active
+950,Customer_950,61,Male,Los Angeles,88940,3,7144.53,2025-08-07,Active
+951,Customer_951,29,Male,Houston,113505,14,7049.55,2025-08-08,Churned
+952,Customer_952,70,Female,New York,43177,17,6302.53,2025-08-09,Active
+953,Customer_953,46,Female,New York,95378,10,7561.32,2025-08-10,Active
+954,Customer_954,46,Female,Phoenix,104354,19,8812.47,2025-08-11,Churned
+955,Customer_955,68,Female,Houston,77402,11,1539.02,2025-08-12,Churned
+956,Customer_956,26,Female,Houston,74120,18,8703.55,2025-08-13,Churned
+957,Customer_957,21,Female,New York,91042,16,4758.36,2025-08-14,Active
+958,Customer_958,34,Female,New York,115125,9,832.24,2025-08-15,Active
+959,Customer_959,60,Male,New York,95299,7,1362.43,2025-08-16,Churned
+960,Customer_960,43,Male,Phoenix,59698,18,1133.82,2025-08-17,Churned
+961,Customer_961,64,Male,Houston,64680,8,9281.76,2025-08-18,Churned
+962,Customer_962,43,Female,Houston,66130,3,7367.83,2025-08-19,Active
+963,Customer_963,38,Male,Chicago,64605,16,5688.8,2025-08-20,Churned
+964,Customer_964,51,Female,New York,95303,9,6038.31,2025-08-21,Active
+965,Customer_965,43,Male,New York,100663,18,9301.29,2025-08-22,Churned
+966,Customer_966,19,Female,New York,56409,10,8826.22,2025-08-23,Active
+967,Customer_967,44,Female,New York,87125,16,4784.86,2025-08-24,Churned
+968,Customer_968,60,Female,Chicago,46127,9,3502.98,2025-08-25,Churned
+969,Customer_969,65,Male,New York,33443,3,2093.91,2025-08-26,Active
+970,Customer_970,62,Female,Phoenix,111549,9,1682.6,2025-08-27,Churned
+971,Customer_971,69,Male,Houston,31470,12,7211.76,2025-08-28,Churned
+972,Customer_972,69,Female,Houston,115193,11,6008.94,2025-08-29,Active
+973,Customer_973,52,Male,Los Angeles,47870,10,9185.35,2025-08-30,Churned
+974,Customer_974,51,Female,Chicago,90462,12,2062.75,2025-08-31,Active
+975,Customer_975,60,Female,Los Angeles,40273,14,4770.81,2025-09-01,Churned
+976,Customer_976,50,Male,Los Angeles,100779,6,7542.13,2025-09-02,Active
+977,Customer_977,57,Male,Phoenix,94868,8,3085.78,2025-09-03,Churned
+978,Customer_978,44,Female,New York,119778,18,2378.82,2025-09-04,Churned
+979,Customer_979,52,Male,Phoenix,82562,20,7046.25,2025-09-05,Churned
+980,Customer_980,28,Male,New York,96150,12,2908.62,2025-09-06,Churned
+981,Customer_981,18,Male,Phoenix,95539,15,9309.99,2025-09-07,Active
+982,Customer_982,70,Male,Los Angeles,42473,6,6357.1,2025-09-08,Churned
+983,Customer_983,59,Female,Los Angeles,54872,14,8351.95,2025-09-09,Active
+984,Customer_984,66,Male,Houston,101440,7,2070.27,2025-09-10,Churned
+985,Customer_985,46,Female,New York,75092,17,7271.2,2025-09-11,Churned
+986,Customer_986,27,Female,Houston,46041,20,3487.82,2025-09-12,Churned
+987,Customer_987,24,Female,Phoenix,62031,15,9615.91,2025-09-13,Active
+988,Customer_988,41,Female,Phoenix,54247,17,6442.66,2025-09-14,Churned
+989,Customer_989,19,Male,Chicago,78559,8,3751.54,2025-09-15,Churned
+990,Customer_990,55,Female,New York,116989,17,4670.57,2025-09-16,Active
+991,Customer_991,23,Male,Phoenix,92035,20,9212.88,2025-09-17,Active
+992,Customer_992,42,Female,Los Angeles,40101,13,7419.46,2025-09-18,Active
+993,Customer_993,30,Female,Chicago,114997,7,8476.6,2025-09-19,Churned
+994,Customer_994,30,Female,Los Angeles,59183,17,1349.31,2025-09-20,Active
+995,Customer_995,23,Male,Houston,40836,3,2539.23,2025-09-21,Churned
+996,Customer_996,57,Male,Phoenix,50762,2,673.36,2025-09-22,Active
+997,Customer_997,41,Male,Houston,52561,18,6465.31,2025-09-23,Churned
+998,Customer_998,46,Female,Chicago,92017,19,4665.91,2025-09-24,Churned
+999,Customer_999,44,Female,Los Angeles,41613,4,5543.33,2025-09-25,Churned
+1000,Customer_1000,41,Female,New York,55529,13,9819.48,2025-09-26,Active
